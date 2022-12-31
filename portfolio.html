@@ -302,6 +302,28 @@
               </ul>
             </div>
           </li>
+          <li class="item-form">
+            <form class="form-subscribe">
+              <label class="label-subscribe" for="user-email">Subscribe</label>
+              <div class="subscribe-field">
+                <input
+                  class="email-input"
+                  type="email"
+                  name="email"
+                  id="user-email"
+                  placeholder="E-mail"
+                  required
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                />
+                <button class="btn-send" type="submit">
+                  <span class="btn-text">Subscribe</span>
+                  <svg class="icon-send" width="24" height="20">
+                    <use href="./images/sprite.svg#icon-Subscribe"></use>
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </li>
         </ul>
       </div>
     </footer>
